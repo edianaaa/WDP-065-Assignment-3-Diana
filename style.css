@@ -1,0 +1,42 @@
+.container-utama{
+    background-color: #65483D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-data{
+    background-color: #9E8279;
+    border-radius: 25px;
+    width: 65%;
+    height: 50%;
+}
+
+section {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+div {
+    color: #564C55;
+    background: #FDBF6E;
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 800px) {
+    div {
+        flex: 100%;
+    }
+    .container-data {
+        flex: 100%;
+    }
+  }
